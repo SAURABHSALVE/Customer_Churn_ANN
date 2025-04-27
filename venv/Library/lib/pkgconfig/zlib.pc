@@ -1,0 +1,13 @@
+prefix=D:/ANNProjectChurnPrediction/venv/Library
+exec_prefix=D:/ANNProjectChurnPrediction/venv/Library
+libdir=D:/ANNProjectChurnPrediction/venv/Library/lib
+sharedlibdir=D:/ANNProjectChurnPrediction/venv/Library/lib
+includedir=D:/ANNProjectChurnPrediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
